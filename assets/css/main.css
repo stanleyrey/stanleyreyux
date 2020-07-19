@@ -190,7 +190,27 @@ input, select, textarea {
 		p.major {
 			font-size: 1.25rem;
 		}
+		p.intro {
+					font-family: proxima-nova;
+			    font-weight: 600;
 
+			    font-size: 30px;
+			    letter-spacing: 2px;
+			    text-transform: none;
+			    line-height: 1.5em;
+			    color: #fff;
+			    margin: 20px auto;
+					display: block;
+			    margin-block-start: 1em;
+			    margin-block-end: 1em;
+			    margin-inline-start: 0px;
+			    margin-inline-end: 0px;
+		}
+		p.intro[name="Name"]{
+					font-size: 54px;
+			    font-style: italic;
+					letter-spacing: 1px;
+		}
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
 		line-height: 1.375;
