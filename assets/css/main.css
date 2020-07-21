@@ -150,12 +150,22 @@ input, select, textarea {
 			}
 
 		}
-	nav {position: absolute; left: -100px} 
+	.nav-link {
+		color: #ffd700 !important;
+	}
+
+	.navbar-brand{
+		position:relative;
+  	margin-left:-10%;
+	}
 	body {
 		background-color: #ffffff;
 		color: #000000;
 	}
-
+	@font-face {
+	  font-family:"Arizonia";
+	  src: url("../webfonts/Arizonia-Regular.ttf") format("truetype");
+	}
 	body, input, select, textarea {
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 1rem;
@@ -208,8 +218,8 @@ input, select, textarea {
 					width: 100%;
 		}
 		p.intro[name="Name"]{
-					font-size: 60px;
-					font-family: "Comic Sans MS", "Comic Sans";
+					font-size: 70px;
+					font-family: "Arizonia";
 			    font-style: italic;
 					letter-spacing: 1px;
 					color: #87CEEB;
@@ -3511,7 +3521,7 @@ input, select, textarea {
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
 			border-radius: 0;
-			width: 40%;
+			width: 45%;
 		}
 
 			.banner.style1 .image img {
