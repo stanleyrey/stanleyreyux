@@ -150,12 +150,7 @@ input, select, textarea {
 			}
 
 		}
- .topbar-responsive-logo{vertical-align:middle;z-index:1}
- .topbar-responsive .topbar-responsive-logo img{width:140px}
- @media screen and (min-width:75em){
-	 .topbar-responsive .topbar-responsive-logo img{
-		 width:160px
-		 }}
+	nav {position: absolute; left: -100px} 
 	body {
 		background-color: #ffffff;
 		color: #000000;
